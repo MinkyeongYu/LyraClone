@@ -1,0 +1,55 @@
+# Visual Studio
+.vs/
+.vsconfig
+*.sln
+*.VC.db
+*.VC.opendb
+
+# Build output folders
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# IDE/OS-specific files
+*.opensdf
+*.sdf
+*.suo
+*.user
+*.userosscache
+*.unsuccessfulbuild
+*.log
+*.tlog
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Compiled programs
+*.exe
+*.dll
+*.lib
+*.app
+*.pdb
+
+# Unreal Engine
+*.xcodeproj
+*.xcworkspace
+*.xcuserdata
+*.opensdf
+*.sln
+
+# Project-specific: You *do* want to track the following
+# LyraCloneGame.uproject
+# Config/
+# Source/
+
+# Optional: ignore plugins if you're using marketplace plugins locally
+Plugins/*/Intermediate/
+Plugins/*/Binaries/
+Plugins/*/Saved/
